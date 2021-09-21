@@ -50,6 +50,10 @@ const medicineSchema = new mongoose.Schema(
       type: Number,
       required: [true, 'A medicine must have a price']
     },
+    dose: {
+      type:String,
+      required: [true, 'A medicine must have a dose']
+    },
     priceDiscount: {
       type: Number,
       validate: {
