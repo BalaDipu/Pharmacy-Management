@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Shuvo Pharmacy",
+        "_id": "5c8a1f292f8fb814b56fa184",
+        "address": "Muksudhpur, Gopalgonj",
+        "contact": [
+            "01766758348",
+            "01747017885",
+            "01788968927"
+        ],
+        "image": [
+            "ShuvoPharma.jpg"
+          ],
+        "location": {
+            "description": " mukshudhpur,Gopalgong",
+            "type": "Point",
+            "coordinates": [
+                -115.570154,
+                51.178456
+            ],
+            "address": "22 no road, alba, mukshudhpur,Gopalgong, Bangladesh"
+        }
+    },
+    {
+        "name": "Sanju Pharmacy",
+        "_id": "5c8a1f4e2f8fb814b56fa185",
+        "address": "Ramdia, Gopalgonj",
+        "contact": [
+            "01766758348",
+            "01747017885",
+            "01788968927"
+        ],
+        "image": [
+            "SanjuPharma.jpg"
+          ],
+        "location": {
+            "description": "Ramdia, Gopalgonj",
+            "type": "Point",
+            "coordinates": [
+                -115.570154,
+                51.178456
+            ],
+            "address": "notun bazar, Ramdia, Gopalgonj, Bangladesh"
+        }
+    },
+    {
+        "name": "Ma Bala Pharmacy",
+        "_id": "5c8a201e2f8fb814b56fa186",
+        "address": "Stadium goli, Gopalgonj",
+        "contact": [
+            "01766758348",
+            "01747017885",
+            "01788968927"
+        ],
+        "image": [
+            "MaBabaPharma.jpg"
+          ],
+        "location": {
+            "description": "Stadium goli, Gopalgonj",
+            "type": "Point",
+            "coordinates": [
+                -115.570154,
+                51.178456
+            ],
+            "address": "12/a, Stadium goli, Gopalgonj, Bangladesh"
+        }
+    },
+    {
+        "name": "Tuktuki Pharmacy",
+        "_id": "5c8a23412f8fb814b56fa18c",
+        "address": "Jhineidhah, Bangladesh",
+        "contact": [
+            "01766758348",
+            "01747017885",
+            "01788968927"
+        ],
+        "image": [
+            "TuktukiPharma.png"
+          ],
+        "location": {
+            "description": " K.C college,jhineidhah",
+            "type": "Point",
+            "coordinates": [
+                -115.570154,
+                51.178456
+            ],
+            "address": "25 block-a,K.C college,jhineidhah, Bangladesh"
+        }
+    }
+]
