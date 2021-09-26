@@ -8,7 +8,7 @@ block content
                     .card__header
                         .card__picture
                             .card__picture-overlay &nbsp;
-                            img.card__picture-img(src=`img/medicines/${medicine.image}`, alt=`${medicine.name} `)
+                            img.card__picture-img(src=`/img/medicines/${medicine.image}`, alt=`${medicine.name} `)
                         h3.heading-tertirary
                             span=medicine.name
 
@@ -17,20 +17,20 @@ block content
                         p.card__text=`${medicine.companyName}`
                         .card__data
                             svg.card__icon
-                                use(xlink:href='img/icons.svg#icon-map-pin')
-                            span Gopalgonj, Dhaka.
+                                use(xlink:href='/img/icons.svg#icon-map-pin')
+                            span Gopalgonj, Bangladesh.
                         .card__data
                             svg.card__icon
-                                use(xlink:href='img/icons.svg#icon-calendar')
+                                use(xlink:href='/img/icons.svg#icon-alert-octagon')
                             span= medicine.expirationDate.toLocaleString('en-us', {month:'long', year:'numeric'})
                         .card__data
                             svg.card__icon
-                                use(xlink:href='img/icons.svg#icon-flag')
+                                use(xlink:href='/img/icons.svg#icon-drug-class')
                             |       
-                            span= medicine.weightOfDrug
+                            span= medicine.group
                         .card__data
                             svg.card__icon
-                                use(xlink:href='img/icons.svg#icon-user')
+                                use(xlink:href='/img/icons.svg#icon-drug-alert')
                             span= medicine.dose
 
                     .card__footer
@@ -40,4 +40,4 @@ block content
                         p.card__ratings
                             span.card__footer-value 4.9
                             span.card__footer-text rating (21)
-                        a.btn.btn--green.btn--small(href='#') Details            
+                        a.btn.btn--green.btn--small(href=`/medicine/${medicine.slug}`) Details            

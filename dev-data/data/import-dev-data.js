@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const Medicine = require('./../../models/medicineModel');
 const User = require('./../../models/userModel');
 const Review = require('../../models/reviewModel');
+const Pharmacy=require('../../models/pharmacyModel')
 
 //database connection
 dotenv.config({ path: './config.env' });
@@ -23,6 +24,7 @@ mongoose
 //Read json file
 const medicines = JSON.parse(fs.readFileSync(`${__dirname}/medicines.json`, 'utf-8'));
 const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`, 'utf-8'));
+const pharmacies = JSON.parse(fs.readFileSync(`${__dirname}/pharmacy.json`, 'utf-8'));
 const reviews = JSON.parse(
   fs.readFileSync(`${__dirname}/reviews.json`, 'utf-8')
 );
@@ -32,6 +34,7 @@ const importData = async () => {
   try {
     await Medicine.create(medicines);
     await User.create(users, { validateBeforeSave: false });
+    await Pharmacy.create(pharmacies);
     await Review.create(reviews);
     console.log('data niye felche');
     process.exit();
@@ -44,6 +47,7 @@ const deleteData = async () => {
   try {
     await Medicine.deleteMany();
     await User.deleteMany();
+    await Pharmacy.deleteMany();
     await Review.deleteMany();
     console.log('data shob shesh vaiya!!');
     process.exit();

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const slugify = require('slugify');
 const validator = require('validator');
-//const User = require('./userModel');
+const Pharmacy = require('./pharmacyModel');
 
 const medicineSchema = new mongoose.Schema(
   {
@@ -81,13 +81,13 @@ const medicineSchema = new mongoose.Schema(
     secretMedicine: {
       type: Boolean,
       default: false
-    }
-    // availableShop: [
-    //   {
-    //     type: mongoose.Schema.ObjectId,
-    //     ref: 'Shop'
-    //   }
-    // ]
+    },
+    nearestPharmacies: [
+      {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Pharmacy'
+      }
+    ]
   },
   {
     toJSON: { virtuals: true },
@@ -120,13 +120,13 @@ medicineSchema.pre(/^find/, function(next) {
   next();
 });
 
-// medicineSchema.pre(/^find/, function(next) {
-//   this.populate({
-//     path: 'availableShop',
-//     select: '-__v -passwordChangedAt'
-//   });
-//   next();
-// });
+medicineSchema.pre(/^find/, function(next) {
+  this.populate({
+    path: 'nearestPharmacies',
+    select: '-__v -passwordChangedAt'
+  });
+  next();
+});
 medicineSchema.post(/^find/, function(docs, next) {
   console.log(`the query took ${Date.now() - this.start} millisecond`);
   // console.log(docs);

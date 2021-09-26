@@ -4,6 +4,6 @@ const router = express.Router();
 
 
 router.get('/',viewController.getOverview);
-router.get('/medicine',viewController.getMedicine);
+router.get('/medicine/:slug',viewController.getMedicine);
 
 module.exports= router;

@@ -9,7 +9,12 @@
     "ratingsQuantity": 6,
     "price": 2.5,
     "priceDiscount": 0,
-    "dose":"3/day",
+    "dose":"3 times/day",
+    "nearestPharmacies":[
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a1f4e2f8fb814b56fa185",
+      "5c8a23412f8fb814b56fa18c"
+    ],
     "summary": "For fever, Headache, Migraine, Toothache, Neuralgia, Feverishness, Period pain, Sore throat, Backache, Reduce temperature and pain of colds",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "image": [
@@ -28,7 +33,12 @@
     "ratingsQuantity": 6,
     "price": 1,
     "priceDiscount": 0,
-    "dose":"3/day",
+    "dose":"3 times/day",
+    "nearestPharmacies":[
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a23412f8fb814b56fa18c"
+    ],
     "summary": "For fever, Headache, Migraine, Toothache, Neuralgia, Feverishness, Period pain, Sore throat, Backache, Reduce temperature and pain of colds",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "image": [
@@ -46,7 +56,12 @@
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
     "price": 7.00,
-    "dose":"3/day",
+    "dose":"3 times/day",
+    "nearestPharmacies":[
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a1f4e2f8fb814b56fa185",
+      "5c8a23412f8fb814b56fa18c"
+    ],
     "priceDiscount": 0,
     "summary": "For fever, Headache, Migraine, Toothache, Neuralgia, Feverishness, Period pain, Sore throat, Backache, Reduce temperature and pain of colds",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -65,7 +80,12 @@
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
     "price": 6.00,
-    "dose":"3/day",
+    "dose":"3 times/day",
+    "nearestPharmacies":[
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a1f4e2f8fb814b56fa185",
+      "5c8a201e2f8fb814b56fa186"
+    ],
     "priceDiscount": 0,
     "summary": "Gastric and duodenal ulcer, NSAID-associated duodenal and gastric ulcer, As prophylaxis in patients with a history of NSAID-associated duodenal and gastric ulcer, Gastro-esophageal reflux disease, Long-term management of acid reflux disease, Acid-related dyspepsia, Severe ulcerating reflux esophagitis, Prophylaxis of acid aspiration during general anesthesia, Zollinger-Ellison syndrome, Helicobacter pylori-induced peptic ulcer.",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -84,7 +104,12 @@
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
     "price":  7.04,
-    "dose":"2/day",
+    "dose":"2 times/day",
+    "nearestPharmacies":[
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a1f4e2f8fb814b56fa185",
+      "5c8a201e2f8fb814b56fa186"
+    ],
     "priceDiscount": 0.04,
     "summary": "Naproxen is indicated for the relief of sign and symptoms of rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, juvenile arthritis, tendonitis, bursitis & acute gout. It is also indicated for the management of primary dysmenorrhea & pain.",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -104,7 +129,12 @@
     "ratingsQuantity": 6,
     "price": 1.27 ,
     "priceDiscount": 0.02,
-    "dose":"2/day",
+    "dose":"2 times/day",
+    "nearestPharmacies":[
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a23412f8fb814b56fa18c"
+    ],
     "summary": "The prevention of post-operative infections due to anaerobic bacteria (particularly species of bacteroides and anaerobic streptococci). The treatment of septicaemia, bacteraemia, peritonitis, brain abscess, pelvic abscess, pelvic cellulitis and post-operative wound infections caused by anaerobes. In the treatment of urogenital trichomoniasis.",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "image": [
@@ -123,7 +153,12 @@
     "ratingsQuantity": 6,
     "price": 25,
     "priceDiscount": 2,
-    "dose":"3/day",
+    "dose":"3 times/day",
+    "nearestPharmacies":[
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a1f4e2f8fb814b56fa185",
+      "5c8a201e2f8fb814b56fa186"
+    ],
     "summary": "For fever, Headache, Migraine, Toothache, Neuralgia, Feverishness, Period pain, Sore throat, Backache, Reduce temperature and pain of colds",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "image": [
@@ -142,7 +177,12 @@
     "ratingsQuantity": 6,
     "price": 25,
     "priceDiscount": 2,
-    "dose":"2/day",
+    "dose":"2 times/day",
+    "nearestPharmacies":[
+      "5c8a1f4e2f8fb814b56fa185",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a23412f8fb814b56fa18c"
+    ],
     "summary": "For fever, Headache, Migraine, Toothache, Neuralgia, Feverishness, Period pain, Sore throat, Backache, Reduce temperature and pain of colds",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "image": [
@@ -161,7 +201,12 @@
     "ratingsQuantity": 6,
     "price": 25,
     "priceDiscount": 2,
-    "dose":"1/day",
+    "dose":"1 time/day",
+    "nearestPharmacies":[
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a23412f8fb814b56fa18c"
+    ],
     "summary": "For fever, Headache, Migraine, Toothache, Neuralgia, Feverishness, Period pain, Sore throat, Backache, Reduce temperature and pain of colds",
     "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "image": [

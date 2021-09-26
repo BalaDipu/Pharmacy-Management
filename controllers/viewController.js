@@ -10,8 +10,13 @@ exports.getOverview = catchAsync(async(req, res) => {
     })
 })
 
-exports.getMedicine = (req,res)=>{
+exports.getMedicine = catchAsync(async(req,res)=>{
+  const medicine = await Medicine.findOne({slug : req.params.slug}).populate({
+    path:'reviews',
+    fields:'review rating user'
+  });
     res.status(200).render('medicine',{
-      title: 'Max-pro' 
+      title: medicine.name,
+      medicine 
     });
-  }
+  })
