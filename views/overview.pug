@@ -38,6 +38,6 @@ block content
                             span.card__footer-value=`${medicine.price}`
                             span.card__footer-text per piece
                         p.card__ratings
-                            span.card__footer-value 4.9
-                            span.card__footer-text rating (21)
+                            span.card__footer-value= medicine.ratingsAverage
+                            span.card__footer-text=`Rating of ${medicine.ratingsQuantity}`
                         a.btn.btn--green.btn--small(href=`/medicine/${medicine.slug}`) Details            

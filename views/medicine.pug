@@ -3,20 +3,13 @@ extends base
 mixin reviewCard(review)
     .reviews__card
         .reviews__avatar
-            img.reviews__avatar-img(src=`/img/users/${review.user.photo}`, alt=`${review.user.name}`)
+            img.reviews__avatar-img(src=`/img/users/user-1.jpg`, alt=`${review.user.name}`)
             h6.reviews__user=review.user.name
         p.reviews__text=review.review
         .reviews__rating
-            svg.reviews__star.reviews__star--active
-                use(xlink:href='/img/icons.svg#icon-star')
-            svg.reviews__star.reviews__star--active
-                use(xlink:href='/img/icons.svg#icon-star')
-            svg.reviews__star.reviews__star--active
-                use(xlink:href='/img/icons.svg#icon-star')
-            svg.reviews__star.reviews__star--active
-                use(xlink:href='/img/icons.svg#icon-star')
-            svg.reviews__star.reviews__star--active
-                use(xlink:href='/img/icons.svg#icon-star')
+            each star in [1, 2, 3, 4, 5]
+                svg.reviews__star(class=`reviews__star--${review.rating >= star ? 'active' : 'inactive'}`)
+                    use(xlink:href='/img/icons.svg#icon-star')
 
 
 mixin overviewBox(label, text, icon)
@@ -77,9 +70,6 @@ block content
             .picture-box
                 img.picture-box__img(src=`/img/pharmacies/${nearestPharmacy.image[0]}`, alt=`${nearestPharmacy.name}`,class=`picture-box__img--${i+1}`)
 
-    section.section-map
-        #map
-
     section.section-reviews
         .reviews
             each review in medicine.reviews
@@ -89,10 +79,11 @@ block content
     section.section-cta
         .cta
             .cta__img.cta__img--logo
-                img(src='/img/logo.png', alt='Natours logo')
+                img(src='/img/logo.png', alt='pharmacy logo')
             img.cta__img.cta__img--1(src='/img/favicon.png', alt='')
             img.cta__img.cta__img--2(src='/img/logo2.png', alt='')
             .cta__content
-                h2.heading-secondary What are you waiting for?
-                p.cta__text 10 days. 1 adventure. Infinite memories. Make it yours today!
-                button.btn.btn--green.span-all-rows Buy now !!
+                h2.heading-secondary Are you satisfied?
+                p.cta__text Let's go for buy and give your significant review!
+                button.btn.btn--green.span-all-rows Buy
+                button.btn.btn--green.span-all-rows Review now !!

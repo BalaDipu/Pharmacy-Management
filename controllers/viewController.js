@@ -20,3 +20,15 @@ exports.getMedicine = catchAsync(async(req,res)=>{
       medicine 
     });
   })
+
+exports.getLoginForm = (req,res)=>{
+  res.status(200).render('login',{
+    title:'Login to your account'
+  })
+}
+
+exports.getSignupForm = (req,res)=>{
+  res.status(200).render('signup',{
+    title:'Sign up to your account'
+  })
+}
